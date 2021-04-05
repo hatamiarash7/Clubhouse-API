@@ -28,13 +28,17 @@ Also, you need to set your **phone number** and **email address**.
 
 ## Endpoints
 
-|          | Authentication                                                                                                               |
+### Authentication
+
+| Request  | Description                                                                                                                  |
 | -------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | Check    | Check user's status and send verification code via SMS.                                                                      |
 | Call     | Call the person and send verification message if SMS not delivered.                                                          |
 | Complete | Complete phone number authentication. This should return `auth_token`, `access_token`, `refresh_token`, `is_waitlisted`, ... |
 
-|                | User                                                           |
+### User
+
+| Request        | Description                                                    |
 | -------------- | -------------------------------------------------------------- |
 | Add email      | Request for email verification. You only need to do this once. |
 | Settings       | Receive user's settings.                                       |
@@ -51,7 +55,9 @@ Also, you need to set your **phone number** and **email address**.
 | Search         | Search users based on the given query.                         |
 | Logout         | Logout from current session.                                   |
 
-|               | Channel ( Room )                                                                                       |
+### Channel ( Room )
+
+| Request       | Description                                                                                            |
 | ------------- | ------------------------------------------------------------------------------------------------------ |
 | Get channels  | Get list of channels, based on the server's channel selection algorithm.                               |
 | Get channel   | Get information of the given channel.                                                                  |
@@ -62,7 +68,9 @@ Also, you need to set your **phone number** and **email address**.
 | Leave channel | Leave the given channel.                                                                               |
 | Join channel  | Join the given channel.                                                                                |
 
-|             | Club                                          |
+### Club
+
+| Request     | Description                                   |
 | ----------- | --------------------------------------------- |
 | Search      | Search clubs based on the given query.        |
 | Information | Get the information about the given `club_id` |
@@ -70,7 +78,9 @@ Also, you need to set your **phone number** and **email address**.
 | Follow      | Follow a club                                 |
 | Unfollow    | Unfollow a club                               |
 
-|                 | Other                                           |
+### Other
+
+| Request         | Description                                     |
 | --------------- | ----------------------------------------------- |
 | Release notes   | Get release notes                               |
 | Update          | Check for app updates                           |
