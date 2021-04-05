@@ -28,13 +28,13 @@ Also, you need to set your **phone number** and **email address**.
 
 ## Endpoints
 
-| Authentication |                                                                                                                              |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Check          | Check user's status and send verification code via SMS.                                                                      |
-| Call           | Call the person and send verification message if SMS not delivered.                                                          |
-| Complete       | Complete phone number authentication. This should return `auth_token`, `access_token`, `refresh_token`, `is_waitlisted`, ... |
+|          | Authentication                                                                                                               |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Check    | Check user's status and send verification code via SMS.                                                                      |
+| Call     | Call the person and send verification message if SMS not delivered.                                                          |
+| Complete | Complete phone number authentication. This should return `auth_token`, `access_token`, `refresh_token`, `is_waitlisted`, ... |
 
-| User           |                                                                |
+|                | User                                                           |
 | -------------- | -------------------------------------------------------------- |
 | Add email      | Request for email verification. You only need to do this once. |
 | Settings       | Receive user's settings.                                       |
@@ -51,18 +51,18 @@ Also, you need to set your **phone number** and **email address**.
 | Search         | Search users based on the given query.                         |
 | Logout         | Logout from current session.                                   |
 
-| Channel ( Room ) |                                                                                                        |
-| ---------------- | ------------------------------------------------------------------------------------------------------ |
-| Get channels     | Get list of channels, based on the server's channel selection algorithm.                               |
-| Get channel      | Get information of the given channel.                                                                  |
-| Create           | Create a new channel.                                                                                  |
-| End              | Kick everyone and close the channel. Requires **moderator** privilege.                                 |
-| Invite user      | Invite someone to a currently joined channel. It will send a ping notification to the given `user_id`. |
-| Hide channel     | Hide/Unhide the channel from the channel list.                                                         |
-| Leave channel    | Leave the given channel.                                                                               |
-| Join channel     | Join the given channel.                                                                                |
+|               | Channel ( Room )                                                                                       |
+| ------------- | ------------------------------------------------------------------------------------------------------ |
+| Get channels  | Get list of channels, based on the server's channel selection algorithm.                               |
+| Get channel   | Get information of the given channel.                                                                  |
+| Create        | Create a new channel.                                                                                  |
+| End           | Kick everyone and close the channel. Requires **moderator** privilege.                                 |
+| Invite user   | Invite someone to a currently joined channel. It will send a ping notification to the given `user_id`. |
+| Hide channel  | Hide/Unhide the channel from the channel list.                                                         |
+| Leave channel | Leave the given channel.                                                                               |
+| Join channel  | Join the given channel.                                                                                |
 
-| Club        |                                               |
+|             | Club                                          |
 | ----------- | --------------------------------------------- |
 | Search      | Search clubs based on the given query.        |
 | Information | Get the information about the given `club_id` |
@@ -70,7 +70,7 @@ Also, you need to set your **phone number** and **email address**.
 | Follow      | Follow a club                                 |
 | Unfollow    | Unfollow a club                               |
 
-| Other           |                                                 |
+|                 | Other                                           |
 | --------------- | ----------------------------------------------- |
 | Release notes   | Get release notes                               |
 | Update          | Check for app updates                           |
