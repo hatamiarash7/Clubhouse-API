@@ -15,7 +15,7 @@ There is a multi-level authentication by phone number :
 
 ## Start
 
-At first you need to import `collection.json` and some collection variables :
+At first you need to import `collection.json` ( Or use [public collection](https://documenter.getpostman.com/view/2651915/TzCQa6Wx) ) and some collection variables :
 
 - `auth_token`
 - `user_id`
