@@ -89,9 +89,11 @@ Also, you need to set your **phone number** and **email address**.
 | Update          | Check for app updates                           |
 | Waitlist status | Check whether you're still on a waitlist or not |
 
+---
+
 ## Support
 
-[![Donate with Bitcoin](https://en.cryptobadges.io/badge/micro/3GhT2ABRuHuXGNzP6DH5KvLZRTXCBKkx2y)](https://en.cryptobadges.io/donate/3GhT2ABRuHuXGNzP6DH5KvLZRTXCBKkx2y) [![Donate with Ethereum](https://en.cryptobadges.io/badge/micro/0x0831bD72Ea8904B38Be9D6185Da2f930d6078094)](https://en.cryptobadges.io/donate/0x0831bD72Ea8904B38Be9D6185Da2f930d6078094)
+[![Donate with Bitcoin](https://en.cryptobadges.io/badge/micro/3GhT2ABRuHuXGNzP6DH5KvLZRTXCBKkx2y)](https://en.cryptobadges.io/donate/3GhT2ABRuHuXGNzP6DH5KvLZRTXCBKkx2y) [![Donate with Ethereum](https://en.cryptobadges.io/badge/micro/0x4832fd8e2cfade141dc4873cc00cf77de604edde)](https://en.cryptobadges.io/donate/0x4832fd8e2cfade141dc4873cc00cf77de604edde)
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D1WGU9)
 
@@ -99,11 +101,13 @@ Also, you need to set your **phone number** and **email address**.
 
 ## Contributing
 
+Don't be shy to be a contributor 😉
+
 1. Fork it !
 2. Create your feature branch : `git checkout -b my-new-feature`
 3. Commit your changes : `git commit -am 'Add some feature'`
 4. Push to the branch : `git push origin my-new-feature`
-5. Submit a pull request :D
+5. Submit a pull request
 
 ## Issues
 
